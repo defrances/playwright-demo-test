@@ -6,11 +6,11 @@ This solution uses Playwright Test, a Node.js library to automate end-to-end tes
 
 1. Install Node.js and npm.
 2. Clone this repository.
-3. Run `npm install` to install the dependencies.
+3. Run `npm run setup` to install the dependencies.
 
 == Running the Tests
 
-Run `npm test` to execute the tests.
+Run `npx playwright test bulkEditWithMock.spec.ts  --project=chromium` to execute the tests.
 
 == Test Structure
 
